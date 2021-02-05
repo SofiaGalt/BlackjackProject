@@ -1,7 +1,5 @@
 package com.skilldistillery.cards;
 
-import java.util.Objects;
-
 public class Card {
 	
 	final Suit suit;
@@ -15,8 +13,8 @@ public class Card {
 
 	@Override
 	public int hashCode() {
-		int firstTerm = rank.ordinal()
-		return Objects.hash(rank, suit);
+		
+		return (rank.ordinal() * 17) * (suit.ordinal() * 19);
 	}
 
 	@Override
@@ -28,7 +26,7 @@ public class Card {
 		if (getClass() != obj.getClass())
 			return false;
 		Card other = (Card) obj;
-		return rank == other.rank && suit == other.suit;
+		return hashCode() == other.hashCode();
 	}
 
 	@Override
