@@ -36,8 +36,8 @@ public class Card {
 		return builder.toString();
 	}
 	
-	 public int getValue() {
-		 return rank.getValue();
-	 }
-	
+	public int getValue() {
+		return rank.getValue();
+	}
+
 }
