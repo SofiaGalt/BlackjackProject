@@ -30,4 +30,4 @@ ________________________________________________________________________________
 Abstraction, Scanner, Enums, and more OOP than I used in any prior project.
 ________________________________________________________________________________
 ### What I learned
-The superclass's private fields rule is more obnoxious than I had thought.  I wish the private meant "private for class/inheriting class objects" instead of private to superclass part of object and invisible to inheriting class part or object.
+The superclass's private fields rule caused more dilemma than I anticipated.  I wish the private meant "private for class and inheriting class objects" instead of "private to superclass part of object and invisible to inheriting class part or object."  I ended up using private fields whenever I could and protected fields whenever I had to.
