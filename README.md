@@ -30,4 +30,4 @@ Abstraction, Scanner, Enums.
 More OOP than I used in any prior project.
 ________________________________________________________________________________
 ### What I learned
-The superclass's private fields rule is more obnoxious than I had thought.  This project involved planning!  I learned that I need to read directions more thoroughly.  I started coding blackjack features that I ultimately didn't need to. 
+The superclass's private fields rule is more obnoxious than I had thought.  I wish the private meant "private for class/inheriting class objects" instead of private to superclass part of object and invisible to inheriting class part or object.
