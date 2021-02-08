@@ -19,6 +19,7 @@ The next package, com.skilldistillery.gameabstractions contains the abstraction 
 
 Finially, the package com.skilldistillery.blackjack contains the actual, concrete, Blackjack specific classes.  These classes all inherit from something else. A BlackjackPlayer extends Guest and implements Playable. A BlackjackDealer extends Dealer and implements Playable.
 
+This project was designed to be scalable.
 ________________________________________________________________________________
 ### How to use
 
@@ -26,8 +27,7 @@ The app can be run through com.skilldistillery.casino.CasinoApp, which contains 
 ________________________________________________________________________________
 ### Technologies
 
-Abstraction, Scanner, Enums.
-More OOP than I used in any prior project.
+Abstraction, Scanner, Enums, and more OOP than I used in any prior project.
 ________________________________________________________________________________
 ### What I learned
 The superclass's private fields rule is more obnoxious than I had thought.  I wish the private meant "private for class/inheriting class objects" instead of private to superclass part of object and invisible to inheriting class part or object.
